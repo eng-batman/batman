@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+   justify-content: center;
+   height: 100vh;
+   background-image: url(backgroung.jpg);
+   height: 00vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   overflow: hidden;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+.m1{
+    display: block;
+    width: 50%;
+    height: 50px;
+    background-color: black;
+    cursor: pointer;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.m2{
+    display: block;
+    position: relative;
+    left: 60%;
+    top: -40px;
+    background-color: black;
+    width: 50%;
+    height: 50px;
+    cursor: pointer;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+}
+
+

@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+   justify-content: center;
+   height: 100vh;
+   background-image: url(backgroung.jpg);
+   height: 00vh;
+   
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   overflow: hidden;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+.setup {
+    padding: 45PX;
+ display: block;
+ background-color: rgb(31, 30, 30);
+ opacity: 90%;
+}
+
+.setup h2{
+    color: aliceblue;
+    }
+
+    li{
+        color: rgb(215, 217, 219);
+        text-decoration: none;
+        
+    }
+
+    .setup a  {
+        color: rgb(133, 144, 154);
+    }
+    

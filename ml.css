@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+   justify-content: center;
+   height: 100vh;
+   background-image: url(backgroung.jpg);
+   height: 00vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+   overflow: hidden;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+.ml a{
+    align-content: center;
+    display: block;
+    background-color: #000000;
+    width: 45%;
+    height: 10%;
+    opacity: 70%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-decoration: none;
+    position: absolute;
+    bottom: 50%;
+    left: 30%;
+    text-align: center;
+   
+}
+

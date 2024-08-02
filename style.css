@@ -1,0 +1,177 @@
+body {
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(backgroung.jpg);
+    height: 00vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container {
+    margin: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.pcycle-block {
+    display: flex;
+    display: block;
+    width: 45%;
+    height: 80px;
+    padding: 20px;
+    background-color: #000000;
+    opacity: 70%;
+    color: rgb(255, 255, 255);
+    opacity: 100%;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 28px;
+    cursor: pointer;
+    
+}
+
+.psubjects-block {
+    display: flex;
+    display: none;
+    width: 45%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #000000;
+    opacity: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    box-shadow: 0 4px 16px rgba(178, 174, 174, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s, box-shadow 0.5s ;;
+}
+.psubjects-block:hover{
+transform:scale(1.0);
+box-shadow: 0 5px 10px rgb(163, 162, 162)
+}
+
+.psubjects-block h2 {
+    color: rgb(214, 219, 219);
+    margin-top: 0;
+}
+
+
+.psubjects-block li {
+    color: rgb(255, 255, 255);
+    margin: 10px 0;
+}
+
+.psubjects-block a {
+    color: #3f4042;
+    text-decoration: none;
+}
+
+.psubjects-block a:hover {
+    text-decoration:underline;
+}
+
+.psubjects-block .close-block {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#physics-cycle:target {
+    display: block;
+}
+
+.ccycle-block {
+    justify-content: right;
+    display: inline-block;
+    width: 37%;
+    height: 80px;
+    padding: 20px;
+    background-color:  #000000;
+    opacity: 700%;
+    color: rgb(249, 249, 249);
+    opacity: 100%;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 28px;
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+}
+
+.csubjects-block {
+   display: flex;
+    display: none;
+    width: 45%;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #000000;
+    opacity:90%;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    box-shadow: 0 4px 16px rgba(178, 174, 174, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s, box-shadow 0.5s ;;
+     position:relative;
+    left: 50%;
+
+}
+.csubjects-block:hover{
+    transform:scale(1.0);
+    box-shadow: 0 5px 10px rgb(163, 162, 162)
+}
+
+.csubjects-block h2 {
+    color: rgb(214, 219, 219);
+    
+  background-color: #000000;
+    margin-top: 0;
+}
+
+.csubjects-block li {
+    color: #ccc;
+    margin: 10px 0;
+}
+
+.csubjects-block a {
+    color: #3f4042;
+   
+    text-decoration: none;
+}
+
+.csubjects-block a:hover {
+    text-decoration: underline;
+}
+
+.csubjects-block .close-block {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#chemistry-cycle:target {
+    display: block;
+}
+
+@media (max-width: 1150px) {
+    .ccycle-block {
+       
+    flex-direction: column;
+    }
+}
